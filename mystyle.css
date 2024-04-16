@@ -6,8 +6,9 @@
 }
 
 body{
-    background-image: C:\Users\Admin\xanxus1719.github.io\Images\sample background.jpeg;
+    background-image: url(sample-background.jpeg);
     background-size: cover;
+    background-position: center;
 }
 
 .logo{
