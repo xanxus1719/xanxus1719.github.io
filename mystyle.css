@@ -5,10 +5,8 @@
     font family: 'Poppins', sans-serif;
 }
 
-body{
-    background-image:url(images/sample\ background.jpeg);
-    background-size: cover;
-    background-position: center;
+.logo{
+    size: 60px
 }
 
 .one{
