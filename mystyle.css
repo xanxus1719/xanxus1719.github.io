@@ -6,8 +6,8 @@
 }
 
 body{
-    background-image: url(sample-background.jpeg);
-    background-size: cover;
+    background-image: url(sample-background.png);
+    background-size:cover;
     background-position: center;
 }
 
@@ -18,7 +18,6 @@ body{
 .one{
     width: 100%;
     min-height: 100vh;
-    background-image: url();
     background-position: center;
     background size: cover
     padding: 10px 10%;
