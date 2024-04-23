@@ -59,10 +59,11 @@ nav ul li:hover
     padding: 10px 15px;
 }
 
-.carousel{
+.carousel.top{
     width: 1440px;
     height: 496px;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .top{
