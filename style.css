@@ -13,8 +13,12 @@ body{
     background: cover;
 }
 
-.h1{
+.FAQ{
     margin: 30%, auto;
     text-align: center;
     color: #48AAB8;
+}
+
+h3{
+    color: #ED8986;
 }

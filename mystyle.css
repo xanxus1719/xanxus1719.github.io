@@ -59,6 +59,29 @@ nav ul li:hover
     padding: 10px 15px;
 }
 
+ul li ul.dropdown li {
+    display: block;
+    color: white;
+}
+
+ul li ul.dropdown {
+    width: 8;
+    background: #48AAB8;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.dropdown {
+    display:block;
+    background: #48AAB8;
+}
+
+ul li:hover ul.dropdown li:hover {
+    background: #ED8986;
+    padding: px 15px;
+}
+
 .carousel.top{
     width: 1440px;
     height: 496px;
@@ -147,9 +170,121 @@ input[name="c"]{
     transform: translateY(-200px);
 }
 
-h1{
+h2{
     text-align: center;
     color: #48AAB8;
 }
 
+h3{
+    text-align: center;
+    color:#ED8986;
+}
 
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min height: 100px;
+    background-color: none;
+    
+}
+
+#container div{
+    height:200px;
+    width: 350px;
+    margin: 60px;
+    text-align: center;
+    color: #48AAB8;
+
+}
+
+footer{
+    background-color: none;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 12px;
+    background-color: #ED8986;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size; 3em;
+    color: white; 
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: #48AAB8;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    background-color: #48AAB8;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a{
+    color: #48AAB8;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav  ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #48AAB8;
+    padding: 10px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max width: 700px){
+    .footernav ul{
+        flex-direction: column;
+
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+    }
+}
