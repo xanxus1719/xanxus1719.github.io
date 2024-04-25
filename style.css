@@ -17,8 +17,15 @@ body{
     margin: 30%, auto;
     text-align: center;
     color: #48AAB8;
+    list-style: none;
+}
+
+.FAQ ul li{
+    list-style: none;
 }
 
 h3{
     color: #ED8986;
 }
+
+
